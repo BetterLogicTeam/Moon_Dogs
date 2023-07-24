@@ -1,0 +1,296 @@
+.main_landing{
+    background-image: url(../Assets/bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat ;
+    padding: 20px 10px;
+}
+
+.main_ld_haeding{
+    font-size: 46px ;
+    color: white ;
+    text-align: left;
+    text-transform: capitalize;
+    font-weight: 700;
+}
+
+
+.lg_left_cont p{
+    color: white !important;
+    padding: 20px 0px ;
+
+}
+
+.card_main_bg{
+    border: 1px solid white;
+    padding:20px 10px ;
+}
+
+.card_main_content h5 {
+    color: white !important;
+    text-align: center ;
+    margin-bottom: 0px ;
+    padding: 15px 0px !important;
+    
+}
+
+
+.main_progress_bar{
+    width: 100%;
+    background: #F9F4F0;
+    height: 24px;
+    border-radius: 15px !important;
+    overflow: hidden;
+    position: relative;
+    background-color: #000;
+    border: 1px solid #fff;
+}
+
+.progress_bar_clr{
+    background-color : #FFB99F !important ;
+    width: 49% !important;
+    position: absolute !important;
+    /* position: absolute; */
+}
+
+
+.text_progress{
+    width: 100%;
+    height: 100%;
+    font-size: 13px;
+    text-align: center;
+    line-height: 24px;
+    z-index: 1;
+    text-align: center;
+    color: white;
+    position: relative;
+    left: 50% !important;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.token_s{
+    color: white ;
+    font-weight: 600;
+    text-align: center ;
+    margin-top: 1rem;
+}
+
+
+.one_how{
+    text-align: center;
+    font-weight: 600;
+    color: white;
+    position: relative;
+}
+
+
+.one_how::before{
+    content: "";
+    width: 25%;
+    height: 1px;
+    background: #C7CED3;
+    position: absolute;
+    left: 0;
+    top: 50%;
+}
+
+.one_how::after{
+    content: "";
+    width: 25%;
+    height: 1px;
+    background: #C7CED3 !important;
+    position: absolute;
+    right: 0;
+    top: 50%;
+}
+
+
+.eth{
+    border: 1px solid white ;
+    padding: 10px 5px ;
+    width: 6.9rem ;
+}
+
+.eth p {
+    color: white !important;
+    margin-bottom: 0px;
+
+}
+
+.token_logo{
+    width: 30px ;
+    height: 30px;
+}
+
+
+.new_conver p{
+    color: white ;
+    margin-bottom: 0px ;
+    text-transform:capitalize ;
+
+}
+
+.covert_input{
+    padding: 10px 5px;
+    border:1px solid white !important ;
+}
+
+
+.input_cober{
+    background-color: transparent;
+    outline: none;
+    border: none ;
+    width: 80%;
+    color: white !important;
+    font-size: 20px;
+
+}
+
+.covert_input img {
+    width: 30px ;
+    height: 30px ;
+}
+
+
+.how_buy p {
+    text-align: center;
+    color: white;
+    text-transform:capitalize;
+    font-size: 20px !important;
+    margin-top: 1rem !important;
+}
+
+
+.site_main_btn{
+    cursor: pointer;
+    
+    line-height: 1;
+    transition: all .25s ease-in-out;
+    font-weight: 500;
+    font-size: 14px!important;
+    margin-bottom: 1rem!important;
+    width: 100%!important;
+    color: white ;
+    background-color: #000;
+    outline: none ;
+    border: none ;
+    /* padding: 10px 5px; */
+    padding: 1rem 0.75rem;
+    border: 1px solid white;
+}
+
+
+
+.buy_moon_btn{
+    background-color: #000;
+    background-image: linear-gradient(to right, #000 , #1e1c1c(83, 208, 173));
+    color: white ;
+    outline: none ;
+    border: none;
+    padding: 8px 30px;
+    border-radius: 20px;
+    border: 1px solid white;
+    /* width: 50%; */
+    text-transform: uppercase;
+    font-size: 18px ;
+    font-weight: 600;
+
+
+
+}
+
+.buy_moon_btnn{
+    border: 1px solid white;
+    text-transform: uppercase;
+    font-size: 18px ;
+    font-weight: 600;
+    background-color: transparent;
+    color: white ;
+border-radius: 20px ;
+padding: 8px 30px;
+
+
+}
+
+.join{
+    color: white ;
+    font-weight: 500;
+    font-size: 26px ;
+    text-transform: capitalize;
+}
+
+
+.soical_icon_main{
+    border-radius: 12px ;
+    background-color: #292626;
+    padding: 10px 5px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem ;
+    width: 50%;
+}
+
+
+.icccons{
+    color: white ;
+    font-size: 20px;
+}
+
+.lit h6{
+    color: white !important;
+    font-size: 22px !important;
+    text-transform: capitalize;
+}
+
+.lit p{
+    color: white !important;
+}
+
+.border_re{
+    border-radius: 50% !important;
+    width: 30px ;
+    height: 30px;
+}
+
+
+@media only screen and (max-width:699px){
+    .soical_icon_main{
+        width: 100% !important;
+        margin-bottom: 1rem !important;
+    }
+    .buy_moon_btn{
+        padding: 7px 19px ;
+    }
+
+}
+
+
+
+@media only screen and (max-width:350px){
+    .eth{
+        width: 4.9rem;
+    }
+}
+
+
+@media  (min-width:351px) and (max-width:400px){
+    .eth{
+        width: 5.9rem;
+    }
+}
+@media  (min-width:700px) and (max-width:990px){
+    .eth{
+        width: 4.8rem;
+    }
+    .new_conver p {
+        font-size: 11px !important;
+    }
+
+    .soical_icon_main {
+        width: 100% !important;
+    }
+}
+
+
