@@ -3,7 +3,7 @@ import "./Ecosystem.css";
 import eco from "../Assets/eco.svg"
 export default function Ecosystem() {
   return (
-    <div className="main_ecosysytem">
+    <div className="main_ecosysytem" id="ecosystem">
       <div className="container">
               <h6 className="main_heading_eco" style={{ color: "#00ff80" }}>Ecosystem</h6>
         <div className="row align-items-center justify-content-center">

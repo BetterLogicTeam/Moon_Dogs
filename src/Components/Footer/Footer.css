@@ -1,0 +1,62 @@
+.main_footer{
+    padding: 40px 10px 0px 10px;
+    background-color: #232323;
+}
+
+.footer_content{
+    text-align: center;
+    color: #212529;
+    font-size: 48px;
+    font-weight: 800;
+    text-transform: capitalize;
+    font-family: 'IM Fell DW Pica', serif;
+
+
+}
+
+.soical-icons{
+    gap: 1rem;
+}
+
+.sical-logo0{
+    background-color: #00ff80;
+    padding: 10px 5px;
+    transition: all 0.5s;
+    color: white ;
+    border-radius: 12px ;
+}
+.sical-logo0:hover{
+    background-color: transparent !important;
+    border: 1px solid #00ff80;
+}
+
+.footerlin{
+    padding: 20px 10px ;
+    border: 2px solid #00ff80 ;
+    background-color: transparent;
+    border-radius: 12px ;
+ 
+
+    color: #fff !important;
+
+}
+
+
+.foooter_para{
+    font-size: 16px !important;
+
+    color: #fff !important;
+
+}
+
+.copy_right{
+    font-size: 16px;
+    text-align: center ;
+    margin-bottom: 0px;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+    color: #00ff80 !important;
+
+}
+
+

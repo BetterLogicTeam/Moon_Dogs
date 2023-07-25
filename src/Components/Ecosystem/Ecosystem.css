@@ -27,7 +27,6 @@
 
 .gif_main{
     width: 100%  !important;
-    /* height: 100% !important; */
     height:0;
     padding-bottom:100%;
     position:relative;
@@ -44,7 +43,6 @@
 .main_heading_eco{
     font-size: 48px ;
     font-weight: 700;
-    /* text-decoration: underline; */
     text-align: center;
     text-transform: capitalize;
     padding-bottom: 1rem ;
@@ -60,6 +58,5 @@
     width: 25%;
     position: absolute;
     bottom: -2px;
-    /* top: 1px; */
     left: 38%;
 }

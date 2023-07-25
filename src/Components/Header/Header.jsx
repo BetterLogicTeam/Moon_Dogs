@@ -26,7 +26,6 @@ export default function Header() {
             {" "}
             <img src={site_logo} alt="" />
           </Navbar.Brand>
-          {/* <Navbar.Toggle aria-controls="responsive-navbar-nav" /> */}
           <span onClick={()=>setShow(!show)}  className="d-block d-lg-none">
         {
         
@@ -37,33 +36,23 @@ export default function Header() {
         </span>
           <Navbar.Collapse id="responsive-navbar-nav"  className={show ? "show":""}>
             <Nav className="ms-auto">
-              <Nav.Link className="nav_bar_links" href="#features">
+              <Nav.Link className="nav_bar_links" href="#about">
               About
               </Nav.Link>
-              <Nav.Link className="nav_bar_links" href="#pricing">
+              <Nav.Link className="nav_bar_links" href="#ecosystem">
               Ecosystem
               </Nav.Link>
-              {/* <NavDropdown title="Dropdown" id="collasible-nav-dropdown">
-              <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.2">
-                Another action
-              </NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
-              <NavDropdown.Divider />
-              <NavDropdown.Item href="#action/3.4">
-                Separated link
-              </NavDropdown.Item>
-            </NavDropdown> */}
-            <Nav.Link className="nav_bar_links" href="#deets">
+              
+            <Nav.Link className="nav_bar_links" href="#roadmap">
             Roadmap
               </Nav.Link>
-              <Nav.Link className="nav_bar_links" eventKey={2} href="#memes">
+              <Nav.Link className="nav_bar_links" eventKey={2} href="#tokenomics">
               Tokenomics
               </Nav.Link>
-              <Nav.Link className="nav_bar_links" eventKey={2} href="#memes">
+              <Nav.Link className="nav_bar_links" eventKey={2} href="#team">
               Team
               </Nav.Link>
-              <Nav.Link className="nav_bar_links" eventKey={2} href="#memes">
+              <Nav.Link className="nav_bar_links" eventKey={2} href="#faq">
               Faq
               </Nav.Link>
             
@@ -73,20 +62,9 @@ export default function Header() {
                 <div className="soical_links gap-3 d-flex align-items-center">
                 <div>
                   <AiOutlineTwitter className="soical_icons"></AiOutlineTwitter>
-                  <BsTelegram className="soical_icons" ></BsTelegram></div>
+                  <BsTelegram className="soical_icons ms-0 ms-lg-2" ></BsTelegram></div>
                   <div>
-                  {/* <button class="site_btn" type="button">
-  <strong>SPACE</strong>
-  <div id="container-stars">
-    <div id="stars"></div>
-  </div>
-
-  <div id="glow">
-    <div class="circle"></div>
-    <div class="circle"></div>
-  </div>
-</button> */}
-                    {/* <button className="navBar_buttn"> <BiWallet></BiWallet> Buy now </button> */}
+                 
                   </div>
                 </div>
               </div>
