@@ -1,0 +1,64 @@
+.why_md_main{
+    padding: 60px 10px ;
+    background-color: #232323;
+
+    border-bottom: 1px solid white;
+}
+
+
+.main_mdh{
+    color: #00ff80 ;
+    font-size: 48px;
+    text-align: center;
+   font-weight: 700;
+   padding-bottom: 1.3rem;
+   text-transform: capitalize;
+position: relative;
+}
+
+.main_mdh::after{
+    content: "";
+    background-color: #00ff80; /* For browsers that do not support gradients */
+    background-image: linear-gradient(to right, #00ff80 , #232323);
+    height: 6px;
+    width: 25%;
+    position: absolute;
+    bottom: -2px;
+    /* top: 1px; */
+    left: 38%;
+}
+
+.ymd_para{
+    text-align: center;
+    color: #c9c4bd;
+    margin-bottom: 0px ;
+    padding: 20px 10px ;
+}
+
+.mdcard_h{
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    margin-bottom: 1.25rem;
+    margin-top: 1.25rem;
+    color: white;
+    font-weight: 700;
+}
+
+
+.card_moondg p {
+    color:  #c9c4bd;
+}
+
+.briht{
+    border-right: 1px solid #00ff80;
+}
+
+.card_moondg {
+    padding: 20px 10px;
+}
+
+
+.conte_card_icos{
+    color: #00ff80;
+    font-size: 36px;
+}

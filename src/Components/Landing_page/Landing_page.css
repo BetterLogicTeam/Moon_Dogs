@@ -4,6 +4,7 @@
     background-size: cover;
     background-repeat: no-repeat ;
     padding: 20px 10px;
+    border-bottom: 1px solid white !important;
 }
 
 .main_ld_haeding{
