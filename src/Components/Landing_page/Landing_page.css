@@ -7,7 +7,7 @@
 }
 
 .main_ld_haeding{
-    font-size: 46px ;
+    font-size: 36px ;
     color: white ;
     text-align: left;
     text-transform: capitalize;
@@ -22,7 +22,9 @@
 }
 
 .card_main_bg{
-    border: 1px solid white;
+    background-color: black;
+
+    border: 1px solid #00ff80;
     padding:20px 10px ;
 }
 
@@ -47,7 +49,7 @@
 }
 
 .progress_bar_clr{
-    background-color : #FFB99F !important ;
+    background-color : #00ff9a !important ;
     width: 49% !important;
     position: absolute !important;
     /* position: absolute; */
@@ -108,7 +110,7 @@
 
 .eth{
     border: 1px solid white ;
-    padding: 10px 5px ;
+    padding: 4px 4px ;
     width: 6.9rem ;
 }
 
@@ -132,7 +134,7 @@
 }
 
 .covert_input{
-    padding: 10px 5px;
+    padding: 5px 5px;
     border:1px solid white !important ;
 }
 
@@ -150,6 +152,7 @@
 .covert_input img {
     width: 30px ;
     height: 30px ;
+    border-radius: 10px;
 }
 
 
@@ -171,8 +174,8 @@
     font-size: 14px!important;
     margin-bottom: 1rem!important;
     width: 100%!important;
-    color: white ;
-    background-color: #000;
+    color: rgb(0, 0, 0) ;
+    background-color: #00ff9a;
     outline: none ;
     border: none ;
     /* padding: 10px 5px; */
@@ -183,18 +186,18 @@
 
 
 .buy_moon_btn{
-    background-color: #000;
+    background-color: #00ff9a;
     background-image: linear-gradient(to right, #000 , #1e1c1c(83, 208, 173));
-    color: white ;
+    color: rgb(0, 0, 0) ;
     outline: none ;
     border: none;
     padding: 8px 30px;
-    border-radius: 20px;
+    /* border-radius: 20px; */
     border: 1px solid white;
     /* width: 50%; */
     text-transform: uppercase;
     font-size: 18px ;
-    font-weight: 600;
+    /* font-weight: 600; */
 
 
 
@@ -204,11 +207,11 @@
     border: 1px solid white;
     text-transform: uppercase;
     font-size: 18px ;
-    font-weight: 600;
-    background-color: transparent;
-    color: white ;
-border-radius: 20px ;
-padding: 8px 30px;
+    /* font-weight: 600; */
+    background-color: #00ff9a;
+    color: rgb(0, 0, 0) ;
+    /* border-radius: 20px ; */
+    padding: 8px 30px;
 
 
 }
@@ -258,7 +261,7 @@ padding: 8px 30px;
 @media only screen and (max-width:699px){
     .soical_icon_main{
         width: 100% !important;
-        margin-bottom: 1rem !important;
+        margin-bottom: 3rem !important;
     }
     .buy_moon_btn{
         padding: 7px 19px ;
@@ -294,3 +297,6 @@ padding: 8px 30px;
 }
 
 
+.new-text{
+    color:#00ff9a;
+}

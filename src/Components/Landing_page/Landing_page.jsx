@@ -16,7 +16,7 @@ export default function Landing_page() {
         <div className="row justify-content-around align-items-center">
         <div className="col-md-5">
         <div className="lg_left_cont text-start ">
-            <h1 className='main_ld_haeding'>expansive network revenue generating crypto platform</h1>
+            <h1 className='main_ld_haeding'>expansive network revenue <span className='new-text'>generating</span>  crypto platform</h1>
 <p>
 Moon is an ecosystem committed   to the goal of providing an  expansive and envolving technology platform.utilizing the potenial of the blockchain,moon will host a staking,farming,P2E gaming platforms and more
 {/* For a short time in 2011, Bitcoin traded for $1. We’re repeating this point in Bitcoin’s life cycle as an ERC-20 token. */}
@@ -42,14 +42,14 @@ Moon is an ecosystem committed   to the goal of providing an  expansive and envo
         <div className="col-md-5">
             <div className="card_main_bg">
             <div className="card_main_content">
-                <h5>Lets go to moon with MoonDoggs</h5>
+                <h5>Lets go to moon with MoonDogg</h5>
                 <div className="main_progress_bar mt-3">
                 <div className="progress_bar_clr">
                     <div className='text_progress'>untill sold out</div>
                 </div>
 
                 </div>
-                <p className='token_s'>Usdt Raised: 1,487,005 / 3,000,000</p>
+                <p className='token_s'>USDT Raised: 1,487,005 / 3,000,000</p>
 
 
 
@@ -59,7 +59,7 @@ Moon is an ecosystem committed   to the goal of providing an  expansive and envo
                 <div className="lit">
 
                     <h6>Stage1 </h6>
-                    <p>$.18</p>
+                    <p>$0.18</p>
                 </div>
     </div>
     <div className="col-4 text-end">
@@ -67,7 +67,7 @@ Moon is an ecosystem committed   to the goal of providing an  expansive and envo
                 <div className="lit">
 
                     <h6>Stage2 </h6>
-                    <p>$.18</p>
+                    <p>$0.14</p>
                 </div>
     </div>
 </div>

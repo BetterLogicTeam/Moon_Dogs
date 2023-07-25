@@ -30,7 +30,7 @@ export default function Header() {
           <span onClick={()=>setShow(!show)}  className="d-block d-lg-none">
         {
         
-          show ? <><RxCross2 className='text-dark fs-1' /> </>:<><AiOutlineMenu className='text-dark fs-1'/></>
+          show ? <><RxCross2 className='text-white fs-1' /> </>:<><AiOutlineMenu className='text-white fs-1'/></>
         }
         
 
