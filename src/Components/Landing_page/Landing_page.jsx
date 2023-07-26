@@ -57,8 +57,11 @@ export default function Landing_page() {
       USD_Coin_Abi,
       USD_Coin_Address
     );
-    if (address) {
+    if (address && isActive==1 ) {
       let balance = await contractOf_Token.methods.balanceOf(address).call();
+      setToken_Balance(balance / 1000000);
+    }else{
+      let balance = await contractOf_usdcToken.methods.balanceOf(address).call();
       setToken_Balance(balance / 1000000);
     }
     let contractOf = new webSupply.eth.Contract(
@@ -438,6 +441,39 @@ export default function Landing_page() {
 
           <div className="col-md-5">
             <div className="card_main_bg">
+              <div className="text-center mb-3">
+                <button
+                  className="site_main_btn text-white "
+                  onClick={() =>
+                    address ?
+                    chain?.id == chains[0]?.id
+                      ? open()
+                      : switchNetwork?.(chains[0]?.id)
+                      :open()
+
+                  }
+                >
+                  {
+                  address ?
+                  chain?.id == chains[0]?.id ? (
+                    address ? (
+                      <>
+                        {`${address.substring(0, 6)}...${address.substring(
+                          address.length - 4
+                        )}`}{" "}
+                      </>
+                    ) : (
+                      "connect wallet"
+                    )
+                  ) : (
+                    "Switch NewWork"
+                  )
+                  :
+                  "Connect Wallet"
+                
+                }
+                </button>
+              </div>
               <div className="card_main_content">
                 <h5>Lets go to moon with MoonDogg</h5>
                 {/* <div className="main_progress_bar mt-3">
@@ -447,15 +483,17 @@ export default function Landing_page() {
 
                   </div>
                 </div> */}
-               
+
                 <div className="main_pooo">
                   <div className="progress_bar">
                     <div
                       className="bvvvv"
-                      style={{width:(Number($MDOGG_Sold) /
-                      Number(getmaxTokeninPresale) /
-                      100)}}
-                     
+                      style={{
+                        width:
+                          Number($MDOGG_Sold) /
+                          Number(getmaxTokeninPresale) /
+                          100,
+                      }}
                     ></div>
                     <span className="stage_text">
                       <p className="stage_text">untill sold out</p>
@@ -463,8 +501,8 @@ export default function Landing_page() {
                   </div>
 
                   <p className="token_s">
-                  USDT Raised:{contractbalance} / 3,000,000
-                </p>
+                    USDT Raised:{contractbalance} / 3,000,000
+                  </p>
                 </div>
                 <div className="row justify-content-around mt-4">
                   <div className="col-4 ">
@@ -518,6 +556,27 @@ export default function Landing_page() {
                   </div>
                 </div>
                 <div className="row justify-content-center">
+                <p className="eth_bla">
+                    {" "}
+                    {isActive == 0 ? "ETH ": isActive==1 ?  "USDT " : "USDC"} balance :{" "}
+                    <span className="fs-5">
+                      {isActive == 0 ? (
+                        <>
+                          {data1?.data?.formatted == undefined
+                            ? 0
+                            : parseFloat(data1?.data?.formatted).toFixed(
+                                4
+                              )}{" "}
+                        </>
+                      ) : isActive==1 ? (
+                        <>{Token_Balance} </>
+                      ): (
+                        <>{Token_Balance} </>
+                      )
+                    
+                    }
+                    </span>
+                  </p>
                   <div className="col-md-6 mt-3">
                     <div className="d-flex mb-2 new_conver justify-content-between">
                       <p>you pay </p>
@@ -570,34 +629,20 @@ export default function Landing_page() {
                   <button
                     className="site_main_btn text-white "
                     onClick={() =>
-                      address
-                        ? chain?.id == chains[0]?.id
-                          ? isActive == 0
-                            ? buyEth()
-                            : isActive == 1
-                            ? buyUSDT()
-                            : buyUSDC()
-                          : switchNetwork?.(chains[0]?.id)
-                        : open()
+                      isActive == 0
+                        ? buyEth()
+                        : isActive == 1
+                        ? buyUSDT()
+                        : buyUSDC()
                     }
                   >
-                    {chain?.id == chains[0]?.id ? (
-                      address ? (
-                        <>
-                          {spinner
-                            ? "Loading..."
-                            : isActive == 0
-                            ? "Buy ETH"
-                            : isActive == 1
-                            ? "Buy USDT"
-                            : "Buy USDC"}
-                        </>
-                      ) : (
-                        "Connect Wallet"
-                      )
-                    ) : (
-                      "Switch NewWork"
-                    )}
+                    {spinner
+                      ? "Loading..."
+                      : isActive == 0
+                      ? "Buy ETH"
+                      : isActive == 1
+                      ? "Buy USDT"
+                      : "Buy USDC"}
                   </button>
                 </div>
               </div>
