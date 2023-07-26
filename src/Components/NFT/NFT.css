@@ -1,0 +1,21 @@
+.main_nft_page{
+    padding: 60px 10px ;
+    background-color: #232323;
+    border-bottom: 1px solid white;
+}
+
+.nft_img{
+    border-radius: 12px !important;
+    border: 1px solid #00ff80;
+}
+
+
+.nft_button{
+    border: 1px solid white !important;
+    background-color: #00ff80;
+    font-size: 18px ;
+    color: #232323;
+    padding: 10px;
+    outline: none ;
+    margin-top: 1rem;
+}

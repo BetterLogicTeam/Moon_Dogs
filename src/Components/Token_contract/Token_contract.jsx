@@ -12,7 +12,7 @@ export default function Token_contract() {
           <div className="first_div">
             <h4>Address</h4>
             <p className="text-truncate">
-              0x7D60dE2E7D92Cb5C863bC82f8d59b37C59fC0A7A{" "}
+            0xA6B8BC9500518F4C15F36151D1A41c8E59F244BD{" "}
               <BiSolidCopy></BiSolidCopy>
             </p>
           </div>
@@ -26,7 +26,7 @@ export default function Token_contract() {
           </div>
           <div className=" first_div borae    ">
             <h4 className="tk_sym"> Token symbol</h4>
-            <p>$moon</p>
+            <p>$MDOGG</p>
 
             <img src={tbg} className="token_bg_imh" alt="" />
           </div>

@@ -8,6 +8,9 @@ import {
   BsTwitter,
 } from "react-icons/bs";
 
+
+// import { BsLinkedin, BsTelegram, BsTwitter, BsYoutube } from "react-icons/bs";
+
 import "./Footer.css";
 
 export default function Footer() {
@@ -43,16 +46,13 @@ export default function Footer() {
             <div className="col-md-12">
               <div className="footerlin">
                 <p className="foooter_para">
-                  consectetur adipisicing elit. Molestias in dicta error.
-                  Accusantium corporis, repellat, voluptas vel eveniet, magni
-                  laboriosam quisquam officiis nisi fuga blanditiis omnis quae?
-                  Esse, eos et?
+                Disclaimer: Cryptocurrency may be unregulated in your jurisdiction. The value of cryptocurrencies may fluctuate. Profits may be subject to capital gains or other taxes applicable in your jurisdiction.
                 </p>
               </div>
             </div>
 
             <p className="copy_right">
-              copyright@2023-Moondog all rights reserved
+              copyright@2023-Moondogg all rights reserved
             </p>
           </div>
         </div>

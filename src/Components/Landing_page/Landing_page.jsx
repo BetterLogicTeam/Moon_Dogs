@@ -26,8 +26,8 @@ export default function Landing_page() {
                 gaming platforms and more
               </p>
               <div className="d-flex gap-3">
-                <button className="buy_moon_btn">buy moon</button>
-                <button className="buy_moon_btnn"> moon stake</button>
+                <button className="buy_moon_btn">Whitepaper</button>
+                <button className="buy_moon_btnn"> Twitter</button>
               </div>
               <h6 className="join mt-3">join our community</h6>
               <div className="soical_icon_main mt-3">

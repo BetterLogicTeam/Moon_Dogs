@@ -8,6 +8,7 @@ import Token_contract from './Components/Token_contract/Token_contract';
 import Roadmap from './Components/Roadmap/Roadmap';
 import FAQ from './Components/FAQ/FAQ';
 import Footer from './Components/Footer/Footer';
+import NFT from './Components/NFT/NFT';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
   <Header/>
   <Landing_page/>
   <Ecosystem/>
+  <NFT/>
   <Why_moondog/>
   <Token_contract/>
   <Roadmap/>

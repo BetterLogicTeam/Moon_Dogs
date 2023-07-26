@@ -11,26 +11,30 @@ export default function Roadmap() {
             <div className="card_content">
               <div className="d-flex justify-content-center">
                 <div className="circular">
-                  <p>01</p>
+                  <p>Q3</p>
                 </div>
               </div>
               <ul>
                 <li className="card_content_i">
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                  Magni accusamus illum{" "}
+                New Website and Branding{" "}
                 </li>
                 <li className="card_content_i">
                   {" "}
-                  officia rerum labore cupiditate minima nam, distinctio a{" "}
+                  Social Media Channels{" "}
                 </li>
                 <li className="card_content_i">
-                  nisi atque soluta, ipsam est quod. Perspiciatis ab ipsa sit
-                  veniam?
+                Social Media Marketing
                 </li>
                 <li className="card_content_i">
-                  nisi atque soluta, ipsam est quod. Perspiciatis ab ipsa sit
-                  veniam?
+                Launch of our Official Whitepaper
                 </li>
+                <li className="card_content_i">
+                Audit Applications and Reviews
+                </li>
+                <li className="card_content_i">
+                Listing on CoinGecko and CoinMarketCap
+                </li>
+
               </ul>
             </div>
           </div>
@@ -38,26 +42,27 @@ export default function Roadmap() {
             <div className="card_content">
               <div className="d-flex justify-content-center">
                 <div className="circular">
-                  <p>02</p>
+                  <p>Q4</p>
                 </div>
               </div>
               <ul>
                 <li className="card_content_i">
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                  Magni accusamus illum{" "}
+                MoonDogg Ecosystem{" "}
                 </li>
                 <li className="card_content_i">
                   {" "}
-                  officia rerum labore cupiditate minima nam, distinctio a{" "}
+                  Community / Team Building{" "}
                 </li>
                 <li className="card_content_i">
-                  nisi atque soluta, ipsam est quod. Perspiciatis ab ipsa sit
-                  veniam?
+                AMA's & Giveaways
                 </li>
                 <li className="card_content_i">
-                  nisi atque soluta, ipsam est quod. Perspiciatis ab ipsa sit
-                  veniam?
+                30k Twitter Followers
                 </li>
+                <li className="card_content_i">
+               Expand Community On Other Platform
+                </li>
+                
               </ul>
             </div>
           </div>
@@ -65,25 +70,30 @@ export default function Roadmap() {
             <div className="card_content">
               <div className="d-flex justify-content-center">
                 <div className="circular">
-                  <p>03</p>
+                  <p>Q1</p>
                 </div>
               </div>
               <ul>
                 <li className="card_content_i">
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                  Magni accusamus illum{" "}
+                MoonDogg Swap{" "}
+
+
                 </li>
                 <li className="card_content_i">
                   {" "}
-                  officia rerum labore cupiditate minima nam, distinctio a{" "}
+                  Listing on Major Exchanges{" "}
                 </li>
                 <li className="card_content_i">
-                  nisi atque soluta, ipsam est quod. Perspiciatis ab ipsa sit
-                  veniam?
+                Influencer Marketing Push
                 </li>
                 <li className="card_content_i">
-                  nisi atque soluta, ipsam est quod. Perspiciatis ab ipsa sit
-                  veniam?
+                Launch of Merchandise
+                </li>
+                <li className="card_content_i">
+                NFT and Games
+                </li>
+                <li className="card_content_i">
+                Further Ecosystem Development
                 </li>
               </ul>
             </div>
