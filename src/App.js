@@ -9,10 +9,12 @@ import Roadmap from './Components/Roadmap/Roadmap';
 import FAQ from './Components/FAQ/FAQ';
 import Footer from './Components/Footer/Footer';
 import NFT from './Components/NFT/NFT';
+import { Toaster } from 'react-hot-toast';
 
 function App() {
   return (
     <div className="App">
+       <Toaster />
   <Header/>
   <Landing_page/>
   <Ecosystem/>

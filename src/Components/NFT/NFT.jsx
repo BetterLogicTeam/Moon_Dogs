@@ -7,7 +7,7 @@ import { BsBoxArrowUpRight } from "react-icons/bs";
 
 export default function NFT() {
   return (
-    <div className="main_nft_page">
+    <div className="main_nft_page" id="MoonDogg_Nft">
       <h1 className="main_mdh">MoonDogg Nft</h1>
       <div className="container mt-5">
         <div className="row justify-content-evenly">

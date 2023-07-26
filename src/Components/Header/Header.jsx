@@ -36,21 +36,21 @@ export default function Header() {
         </span>
           <Navbar.Collapse id="responsive-navbar-nav"  className={show ? "show":""}>
             <Nav className="ms-auto">
-              <Nav.Link className="nav_bar_links" href="#about">
-              About
-              </Nav.Link>
               <Nav.Link className="nav_bar_links" href="#ecosystem">
               Ecosystem
+              </Nav.Link>
+              <Nav.Link className="nav_bar_links" href="#MoonDogg_Nft">
+              MoonDogg Nft
               </Nav.Link>
               
             <Nav.Link className="nav_bar_links" href="#roadmap">
             Roadmap
               </Nav.Link>
               <Nav.Link className="nav_bar_links" eventKey={2} href="#tokenomics">
-              Tokenomics
+              Token Contract
               </Nav.Link>
-              <Nav.Link className="nav_bar_links" eventKey={2} href="#team">
-              Team
+              <Nav.Link className="nav_bar_links" eventKey={2} href="#Moondogg">
+              Why Moondogg
               </Nav.Link>
               <Nav.Link className="nav_bar_links" eventKey={2} href="#faq">
               Faq

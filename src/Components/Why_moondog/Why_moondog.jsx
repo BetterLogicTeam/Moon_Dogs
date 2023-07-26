@@ -4,7 +4,7 @@ import "./Why_moondog.css";
 import { GiIncense, GiPriceTag, GiShouting } from "react-icons/gi";
 export default function Why_moondog() {
   return (
-    <div className="why_md_main" id="why_us">
+    <div className="why_md_main" id="Moondogg">
       <h1 className="main_mdh">why moondogg</h1>
       <p className="ymd_para">
       MoonDog will serve as the core utility token driving our platform's vibrant market economy. With its pivotal role in the NFT marketplace and activities within the metaverse, $Moondog will empower users to engage in seamless and secure transactions while exploring new frontiers of collaboration and remote work. As holders of $Moondog, users will enjoy exclusive access to a plethora of exciting features, including themed meeting rooms, virtual galleries for showcasing portfolios, job fairs, advertising opportunities, and much more. We are committed to revolutionizing the way people collaborate and work remotely by harnessing the innovative potential of blockchain technology and the metaverse, providing an unparalleled user experience for our community.
