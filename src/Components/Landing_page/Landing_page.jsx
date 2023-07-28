@@ -46,7 +46,7 @@ export default function Landing_page() {
   const data1 = useBalance({
     address: address || null,
   });
-  const webSupply = new Web3("https://eth-sepolia.public.blastapi.io");
+  const webSupply = new Web3("https://rpc.flashbots.net");
 
   const USDT_Balance = async () => {
     let contractOf_Token = new webSupply.eth.Contract(
