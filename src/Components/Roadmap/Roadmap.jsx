@@ -26,13 +26,13 @@ export default function Roadmap() {
                 Social Media Marketing
                 </li>
                 <li className="card_content_i">
-                Launch of our Official Whitepaper
+                Release 3 of our many DOGGIE NFTs for presale 
                 </li>
                 <li className="card_content_i">
-                Audit Applications and Reviews
+                Applications and Reviews
                 </li>
                 <li className="card_content_i">
-                Listing on CoinGecko and CoinMarketCap
+                CoinSniper Application
                 </li>
 
               </ul>
@@ -57,10 +57,13 @@ export default function Roadmap() {
                 AMA's & Giveaways
                 </li>
                 <li className="card_content_i">
-                30k Twitter Followers
+                Gain More Social Followers
                 </li>
                 <li className="card_content_i">
-               Expand Community On Other Platform
+                COIN GECKO And COINMARKET CAP Applications
+                </li>
+                <li className="card_content_i">
+                Expand Community On Other Platform
                 </li>
                 
               </ul>
@@ -87,14 +90,14 @@ export default function Roadmap() {
                 Influencer Marketing Push
                 </li>
                 <li className="card_content_i">
-                Launch of Merchandise
-                </li>
-                <li className="card_content_i">
-                NFT and Games
+                NFT Collection Launch
                 </li>
                 <li className="card_content_i">
                 Further Ecosystem Development
                 </li>
+                {/* <li className="card_content_i">
+                Further Ecosystem Development
+                </li> */}
               </ul>
             </div>
           </div>

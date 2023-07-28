@@ -6,6 +6,7 @@ import {
   BsReddit,
   BsTelegram,
   BsTwitter,
+  BsDiscord
 } from "react-icons/bs";
 
 
@@ -21,24 +22,27 @@ export default function Footer() {
           <h3 className="main_mdh"> join our community</h3>
           <div className="footer_soical_icons">
             <div className="soical-icons d-flex justify-content-center my-3 ">
-              <a href=" #" target="_blank" className="text-decoration-none">
+              <a href="https://t.me/MoonDoggOfficialGroup" target="_blank" className="text-decoration-none">
                 <BsTelegram className="sical-logo0"></BsTelegram>
               </a>
-              <a href="#" target="_blank" className="text-decoration-none">
+              {/* <a href="#" target="_blank" className="text-decoration-none">
                 <BsInstagram className="sical-logo0"></BsInstagram>
-              </a>
-              <a href="#" target="_blank" className="text-decoration-none">
+              </a> */}
+              <a href="https://twitter.com/Moon_Dogg_Token" target="_blank" className="text-decoration-none">
                 <BsTwitter className="sical-logo0"></BsTwitter>
               </a>
-              <a href="#" target="_blank">
+              {/* <a href="#" target="_blank">
                 <BsFacebook className="sical-logo0"></BsFacebook>
-              </a>
+              </a> */}
 
-              <a href=" #" target="_blank" className="text-decoration-none">
+              {/* <a href=" #" target="_blank" className="text-decoration-none">
                 <BsMedium className="sical-logo0"></BsMedium>
-              </a>
-              <a href="#" target="_blank" className="text-decoration-none">
+              </a> */}
+              {/* <a href="#" target="_blank" className="text-decoration-none">
                 <BsReddit className="sical-logo0"></BsReddit>
+              </a> */}
+              <a href="https://discord.gg/w3WeKarF" target="_blank" className="text-decoration-none">
+                <BsDiscord className="sical-logo0"></BsDiscord>
               </a>
             </div>
           </div>

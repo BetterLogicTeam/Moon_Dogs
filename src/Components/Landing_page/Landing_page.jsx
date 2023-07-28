@@ -4,7 +4,7 @@ import eth from "../Assets/eth.svg";
 import usdt from "../Assets/usdt.svg";
 import usd from "../Assets/usdc.svg";
 import moon from "../Assets/site_logo.jpg";
-import { BsLinkedin, BsTelegram, BsTwitter, BsYoutube } from "react-icons/bs";
+import { BsLinkedin, BsTelegram, BsTwitter, BsYoutube ,BsDiscord} from "react-icons/bs";
 import { FaTwitch } from "react-icons/fa";
 import { AiFillInstagram } from "react-icons/ai";
 import { useAccount, useContractWrite, useNetwork } from "wagmi";
@@ -414,14 +414,15 @@ export default function Landing_page() {
           <div className="col-md-5">
             <div className="lg_left_cont text-start ">
               <h1 className="main_ld_haeding">
-                expansive network revenue{" "}
-                <span className="new-text">generating</span> crypto platform
+              🐶 Welcome To MOONDOGG Official Presale 🐶
               </h1>
               <p>
-                Moon is an ecosystem committed to the goal of providing an
-                expansive and envolving technology platform.utilizing the
-                potenial of the blockchain,moon will host a staking,farming,P2E
-                gaming platforms and more
+              Introducing MOONDOGG At the heart of our project is “MOONDOGG"  representing the iconic 
+              French bulldog now infused with the magic of blockchain technology.
+              ⚡️0% Tax  🔥Top CEX Listing 🔥CS & CMC & CG Fast-Track 🔥Top Trending Backed
+               by Experienced Team & Marketers The world's top influencer💠
+               <br/>NFT’S COMING SOON
+               <br/>Lets Take MOONDOGG to the Moon Launch after Presale ends
               </p>
               <div className="d-flex gap-3">
                 <button className="buy_moon_btn">Whitepaper</button>
@@ -429,12 +430,13 @@ export default function Landing_page() {
               </div>
               <h6 className="join mt-3">join our community</h6>
               <div className="soical_icon_main mt-3">
-                <BsTwitter className="icccons"></BsTwitter>
-                <FaTwitch className="icccons"></FaTwitch>
-                <BsTelegram className="icccons"></BsTelegram>
-                <BsLinkedin className="icccons"></BsLinkedin>
+              <a href="https://twitter.com/Moon_Dogg_Token" target="_blank" className="text-decoration-none"> <BsTwitter className="icccons"></BsTwitter></a>
+                {/* <FaTwitch className="icccons"></FaTwitch> */}
+                <a href="https://t.me/MoonDoggOfficialGroup" target="_blank" className="text-decoration-none"> <BsTelegram className="icccons"></BsTelegram></a>
+                {/* <BsLinkedin className="icccons"></BsLinkedin>
                 <BsYoutube className="icccons"></BsYoutube>
-                <AiFillInstagram className="icccons"></AiFillInstagram>
+                <AiFillInstagram className="icccons"></AiFillInstagram> */}
+                <a href="https://discord.gg/w3WeKarF" target="_blank" className="text-decoration-none"><BsDiscord className="icccons"></BsDiscord></a>
               </div>
             </div>
           </div>

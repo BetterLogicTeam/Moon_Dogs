@@ -61,8 +61,8 @@ export default function Header() {
             <div className=" d-flex align-items-center borer_lg ">
                 <div className="soical_links gap-3 d-flex align-items-center">
                 <div>
-                  <AiOutlineTwitter className="soical_icons"></AiOutlineTwitter>
-                  <BsTelegram className="soical_icons ms-0 ms-lg-2" ></BsTelegram></div>
+                <a href="https://twitter.com/Moon_Dogg_Token" target="_blank" className="text-decoration-none"><AiOutlineTwitter className="soical_icons"></AiOutlineTwitter></a>
+                <a href="https://t.me/MoonDoggOfficialGroup" target="_blank" className="text-decoration-none"> <BsTelegram className="soical_icons ms-0 ms-lg-2" ></BsTelegram></a></div>
                   <div>
                  
                   </div>
